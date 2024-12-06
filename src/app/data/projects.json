@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "IoTsolate",
+        "description": "A project using VLAN microsegmentation to identify, isolate, and neutralize security risks. Users can manually connect IoT devices to different network segments using a user-friendly app, showing network configuration and communication privileges. Built in collaboration with a partner.",
+        "image": "/assets/projects/IoTsolate.jpg",
+        "logo": "/assets/projects/IoTsolate.jpg",
+        "tags": ["OpenWrt", "React Native", "Expo Go"],
+        "links": {"GitHub": "https://github.com/cnmorali/IoTsolate", "LiveDemo": "https://github.com/cnmorali"}
+    },
+    {
+        "id": 2,
+        "title": "CheckMates",
+        "description": "A receipt-splitting web application built using Next.js and hosted on Vercel. It simplifies expense division for groups by scanning receipts and calculating each person’s share. Built as part of a team project.",
+        "image": "/assets/projects/CheckMates.jpg",
+        "logo": "/assets/projects/CheckMates.jpg",
+        "tags": ["Next.js", "Tailwind CSS"],
+        "links": {"GitHub": "https://github.com/lyydiakim/checkmate", "LiveDemo": "https://checkmate-six.vercel.app"}
+    },
+    {
+        "id": 3,
+        "title": "Personal Portfolio Site",
+        "description": "This personal website, built from scratch using Next.js and Tailwind CSS, showcases my work and skills. It is fully responsive and optimized for performance.",
+        "image": "/assets/projects/website.jpg",
+        "logo": "/assets/projects/website.jpg",
+        "tags": ["Next.js", "Tailwind CSS"],
+        "links": {"GitHub": "https://github.com/cnmorali"}
+    }
+]
