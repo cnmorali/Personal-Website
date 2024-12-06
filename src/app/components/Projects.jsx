@@ -1,7 +1,8 @@
 import React from 'react';
-import '../globals.css';
 import Image from 'next/image';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
+import Link from 'next/link';  // Import Link component from next/link
+import '../globals.css';
 
 const Projects = () => {
   return (
@@ -23,8 +24,8 @@ const Projects = () => {
                   className='rounded-xl object-cover h-64 w-full group-hover:opacity-50 transition duration-300' 
                   src='/assets/projects/IoTsolate.jpg' 
                   alt='IoTsolate' 
-                  width='2880' 
-                  height='1562' 
+                  width={2880}  // Adjust width and height to use numeric values, not strings
+                  height={1562}
                 />
                 <div className='p-4'>
                   <h3 className='text-2xl text-stone-700 tracking-wider text-center'>IoTsolate</h3>
@@ -46,8 +47,8 @@ const Projects = () => {
                   className='rounded-xl object-cover h-64 w-full group-hover:opacity-50 transition duration-300' 
                   src='/assets/projects/CheckMates.jpg' 
                   alt='CheckMates' 
-                  width='2880' 
-                  height='1562' 
+                  width={2880}
+                  height={1562}
                 />
                 <div className='p-4'>
                   <h3 className='text-2xl text-stone-700 tracking-wider text-center'>CheckMates</h3>
@@ -69,8 +70,8 @@ const Projects = () => {
                   className='rounded-xl object-cover h-64 w-full group-hover:opacity-50 transition duration-300' 
                   src='/assets/projects/website.jpg' 
                   alt='My Personal Website' 
-                  width='2880' 
-                  height='1562' 
+                  width={2880}
+                  height={1562}
                 />
                 <div className='p-4'>
                   <h3 className='text-2xl text-stone-700 tracking-wider text-center'>My Personal Website</h3>
@@ -83,9 +84,9 @@ const Projects = () => {
         </div>
       </div>
       <div className='flex justify-center py-12'>
-        <a href='/'>
+        <Link href='/'>  {/* Use Link instead of a */}
           <HiOutlineChevronDoubleUp className='text-[#9d174d]' size={30} />
-        </a>
+        </Link>
       </div>
     </div>
   );
