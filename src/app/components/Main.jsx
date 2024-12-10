@@ -20,7 +20,7 @@ const Main = () => {
                     </h2>
 
                     <p className="text-stone-600 max-w-[70%] m-auto">
-                        I&apos;m an enthusiastic, creative recent engineering graduate and fashionista with a love for culture, impactful technology, and beautiful things.{' '}
+                        I&apos;m a passionate and creative engineering graduate with a love for technology, culture, and beautiful design.{' '}
                         <Link href="/#projects" scroll={true}>
                             <span className="underline cursor-pointer hover:opacity-80">
                                 Check out some of the things I&apos;ve been working on.
