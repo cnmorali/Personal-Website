@@ -43,6 +43,9 @@ const Skills = () => {
               <h3 className='text-center text-stone-600 font-normal'>Assembly</h3>
             </div>
             <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
+              <h3 className='text-center text-stone-600 font-normal'>Java</h3>
+            </div>
+            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
               <h3 className='text-center text-stone-600 font-normal'>JavaScript</h3>
             </div>
           </div>

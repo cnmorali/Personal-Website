@@ -15,14 +15,10 @@ const Main = () => {
                         Hi, I&apos;m <span className='text-[#db2777]'>Chloé</span>
                     </h1>
 
-                    <h2 className='py-2 text-stone-700'>
-                    A Computer Science & Engineering Graduate
-                    </h2>
-
-                    <p className="text-stone-600 max-w-[70%] m-auto">
-                        I&apos;m a passionate and creative engineering graduate with a love for technology, culture, and beautiful design.{' '}
+                    <p className="text-stone-600 max-w-[65%] m-auto">
+                    A passionate and creative engineer with a love for technology, culture, and beautiful design.{' '}
                         <Link href="/#projects" scroll={true}>
-                            <span className="underline cursor-pointer hover:opacity-80">
+                            <span className="underline cursor-pointer hover:opacity-80 transition-opacity duration-200">
                                 Check out some of the things I&apos;ve been working on.
                             </span>
                         </Link>
