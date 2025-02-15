@@ -28,8 +28,8 @@ const Projects = () => {
                   height={1562}
                 />
                 <div className='p-4'>
-                  <h3 className='text-2xl text-stone-700 tracking-wider text-center'>IoTsolate</h3>
-                  <p className='pt-2 text-stone-600 text-center'>Manage and secure your IoT devices</p>
+                  <h3 className='text-2xl text-stone-800 tracking-wider text-center'>IoTsolate</h3>
+                  <p className='pt-2 text-stone-700 text-center'>Manage and secure your IoT devices</p>
                 </div>
               </div>
             </a>
@@ -51,8 +51,8 @@ const Projects = () => {
                   height={1562}
                 />
                 <div className='p-4'>
-                  <h3 className='text-2xl text-stone-700 tracking-wider text-center'>CheckMates</h3>
-                  <p className='pt-2 text-stone-600 text-center'>Easily split bills with friends</p>
+                  <h3 className='text-2xl text-stone-800 tracking-wider text-center'>CheckMates</h3>
+                  <p className='pt-2 text-stone-700 text-center'>Easily split bills with friends</p>
                 </div>
               </div>
             </a>
@@ -61,9 +61,9 @@ const Projects = () => {
           {/* Project 3: My Personal Site */}
           <div className='relative flex flex-col items-center justify-center h-auto w-full shadow-md shadow-stone-400 rounded-xl p-4 group hover:bg-stone-100 transition duration-300'>
             <a 
-              href='https://github.com/cnmorali' 
+              href='https://github.com/cnmorali/Personal-Website' 
               target='_blank' 
-              rel='noopener noreferrer'
+              rel='noopener noreferrer's
             >
               <div className='relative block w-full'>
                 <Image 
@@ -74,19 +74,37 @@ const Projects = () => {
                   height={1562}
                 />
                 <div className='p-4'>
-                  <h3 className='text-2xl text-stone-700 tracking-wider text-center'>My Personal Website</h3>
-                  <p className='pt-2 text-stone-600 text-center'>My online portfolio</p>
+                  <h3 className='text-2xl text-stone-800 tracking-wider text-center'>My Personal Website</h3>
+                  <p className='pt-2 text-stone-700 text-center'>My online portfolio</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          {/* Project 4: Inrix Hack 2024 */}
+          <div className='relative flex flex-col items-center justify-center h-auto w-full shadow-md shadow-stone-400 rounded-xl p-4 group hover:bg-stone-100 transition duration-300'>
+            <a 
+              href='https://github.com/cnmorali/INRIX-Hack-2023' 
+              target='_blank' 
+              rel='noopener noreferrer'
+            >
+              <div className='relative block w-full'>
+                <Image 
+                  className='rounded-xl object-cover h-64 w-full group-hover:opacity-50 transition duration-300' 
+                  src='/assets/projects/PedalPal.jpg' 
+                  alt='PedalPal - Bike Safer! Inrix Hack 2023' 
+                  width={2880}
+                  height={1562}
+                />
+                <div className='p-4'>
+                  <h3 className='text-2xl text-stone-800 tracking-wider text-center'>PedalPal</h3>
+                  <p className='pt-2 text-stone-700 text-center'>Get bike-friendly navigation routes</p>
                 </div>
               </div>
             </a>
           </div>
 
         </div>
-      </div>
-      <div className='flex justify-center py-12'>
-        <Link href='/'>  {/* Use Link instead of a */}
-          <HiOutlineChevronDoubleUp className='text-[#9d174d]' size={30} />
-        </Link>
       </div>
     </div>
   );

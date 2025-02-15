@@ -14,9 +14,9 @@ export default function Home(){
                 <link rel="icon" href="assets/CNMsquare.png" />
             </Head>
             <Main />
-            <About />
-            <Skills />
             <Projects />
+            <Skills />
+            <About />
             <Footer />
         </div>
     )
