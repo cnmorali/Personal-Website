@@ -1,8 +1,8 @@
 import React from 'react';
 import '../globals.css';
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa';
-import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { SiGmail } from "react-icons/si";
+import { FaDownload } from "react-icons/fa6";
 import Link from 'next/link';
 
 const Main = () => {
@@ -44,13 +44,13 @@ const Main = () => {
 
                         <a href='mailto:chloenoormorali@gmail.com'>
                             <div className='rounded-full shadow-md shadow-stone-400 p-6 cursor-pointer hover:bg-stone-100 ease-in duration-300'>
-                                <AiOutlineMail />
+                                <SiGmail />
                             </div>
                         </a>
 
                         <a href='/assets/Chloe-Morali-Resume.pdf' download>
                             <div className='rounded-full shadow-md shadow-stone-400 p-6 cursor-pointer hover:bg-stone-100 ease-in duration-300'>
-                                <BsFillPersonLinesFill />
+                                <FaDownload />
                             </div>
                         </a>
                     </div>
