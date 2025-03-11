@@ -32,21 +32,23 @@ const Skills = () => {
             <h2 className='text-center text-xl font-semibold text-stone-800'>Programming Languages</h2>
             <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
               <h3 className='text-center text-stone-700 font-normal'>C/ C++</h3>
-            </div>
-            <div className='p-6 shadow-md shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
-              <h3 className='text-center text-stone-700 font-normal'>MATLAB</h3>
+              <p className='text-center text-sm text-stone-500'>Proficient</p>
             </div>
             <div className='p-6 shadow-md  shadow-stone-400 rounded-xl  hover:bg-stone-100 transition duration-300'>
-              <h3 className='text-center text-stone-700 font-normal'>Python</h3>
+              <h3 className='text-center text-stone-700 font-normal'>JavaScript</h3>
+              <p className='text-center text-sm text-stone-500'>Experienced</p>
             </div>
             <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
               <h3 className='text-center text-stone-700 font-normal'>Assembly</h3>
+              <p className='text-center text-sm text-stone-500'>Familiar</p>
+            </div>
+            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
+              <h3 className='text-center text-stone-700 font-normal'>Python</h3>
+              <p className='text-center text-sm text-stone-500'>Familiar</p>
             </div>
             <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
               <h3 className='text-center text-stone-700 font-normal'>Java</h3>
-            </div>
-            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
-              <h3 className='text-center text-stone-700 font-normal'>JavaScript</h3>
+              <p className='text-center text-sm text-stone-500'>Learning</p>
             </div>
           </div>
 
@@ -54,16 +56,20 @@ const Skills = () => {
           <div className='space-y-4'>
             <h2 className='text-center text-xl font-semibold text-stone-800'>Languages</h2>
             <div className='p-6 shadow-md  shadow-stone-400 bg-stone-200 rounded-xl hover:bg-stone-100 transition duration-300'>
-              <h3 className='text-center text-stone-700 font-normal'>English (Fluent)</h3>
+              <h3 className='text-center text-stone-700 font-normal'>English</h3>
+              <p className='text-center text-sm text-stone-500'>Fluent</p>
             </div>
             <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
-              <h3 className='text-center text-stone-700 font-normal'>French (Fluent)</h3>
+              <h3 className='text-center text-stone-700 font-normal'>French</h3>
+              <p className='text-center text-sm text-stone-500'>Fluent</p>
             </div>
             <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
-              <h3 className='text-center text-stone-700 font-normal'>Mandarin (Intermediate)</h3>
+              <h3 className='text-center text-stone-700 font-normal'>Mandarin</h3>
+              <p className='text-center text-sm text-stone-500'>Intermediate</p>
             </div>
             <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
-              <h3 className='text-center text-stone-700 font-normal'>Korean (Beginner)</h3>
+              <h3 className='text-center text-stone-700 font-normal'>Korean</h3>
+              <p className='text-center text-sm text-stone-500'>Beginner</p>
             </div>
           </div>
         </div>
