@@ -11,10 +11,10 @@ const Skills = () => {
           <div className='space-y-4'>
             <h2 className='text-center text-xl font-semibold text-stone-800'>Technologies</h2>
             <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
-              <h3 className='text-center text-stone-700 font-normal'>Next.js</h3>
+              <h3 className='text-center text-stone-700 font-normal'>React Native</h3>
             </div>
             <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
-              <h3 className='text-center text-stone-700 font-normal'>React Native</h3>
+              <h3 className='text-center text-stone-700 font-normal'>Next.js</h3>
             </div>
             <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
               <h3 className='text-center text-stone-700 font-normal'>Tailwind CSS</h3>
@@ -23,7 +23,10 @@ const Skills = () => {
               <h3 className='text-center text-stone-700 font-normal'>Git</h3>
             </div>
             <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
-              <h3 className='text-center text-stone-700 font-normal'>Firebase</h3>
+              <h3 className='text-center text-stone-700 font-normal'>Firebase Firestore</h3>
+            </div>
+            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
+              <h3 className='text-center text-stone-700 font-normal'>Google Cloud Authentication</h3>
             </div>
           </div>
 
