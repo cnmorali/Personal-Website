@@ -17,7 +17,7 @@ const About = () => {
           height={370}
         />
 
-        <p className='text-xl text-stone-700'>I&apos;m just getting started.</p>
+        <p className='text-stone-700'>I&apos;m just getting started.</p>
       </div>
 
       <div className='flex justify-center py-12'>
