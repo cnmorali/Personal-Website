@@ -40,7 +40,7 @@ const Navbar = () => {
             <div className='pt-7 px-5'>
                 <ul className='hidden md:flex text-stone-700'>
                     <Link href='/'>
-                        <li className='ml-10 text-sm uppercase hover:border-b text-pink-700'>Welcome</li>
+                        <li className='ml-10 text-sm uppercase hover:border-b text-[#9d174d]'>Welcome</li>
                     </Link>
                     <Link href='/#projects'>
                         <li className='ml-10 text-sm uppercase hover:border-b text-[#9d174d]'>Projects</li>
@@ -49,7 +49,7 @@ const Navbar = () => {
                         <li className='ml-10 text-sm uppercase hover:border-b text-[#9d174d]'>Skills</li>
                     </Link>
                     <Link href='/#about'>
-                        <li className='ml-10 text-sm uppercase hover:border-b text-[#9d174d]'>About Me</li>
+                        <li className='ml-10 text-sm uppercase hover:border-b text-[#9d174d]'>Moi</li>
                     </Link>
                     
                 </ul>
@@ -71,7 +71,7 @@ const Navbar = () => {
                                 height='26' 
                             />
                         </Link>
-                        <div onClick={handleNav} className='rounded-full shadow-md shadow-stone-400 p-3 cursor-pointer hover:bg-stone-100 ease-in duration-300'>
+                        <div onClick={handleNav} className='rounded-full shadow-md shadow-stone-400 p-3 cursor-pointer hover:opacity-80 transition-opacity duration-300'>
                             <AiOutlineClose />
                         </div>
                     </div>
@@ -95,7 +95,7 @@ const Navbar = () => {
                         <li onClick={()=> setNav(false)} className='py-4 text-sm text-[#9d174d] flex items-center'>Skills</li>
                     </Link>
                     <Link href='/#about'>
-                        <li onClick={()=> setNav(false)} className='py-4 text-sm text-[#9d174d] flex items-center'>About Me</li>
+                        <li onClick={()=> setNav(false)} className='py-4 text-sm text-[#9d174d] flex items-center'>Moi</li>
                     </Link>
                     </ul>
 
@@ -103,16 +103,16 @@ const Navbar = () => {
                     <div className='pt-10'>
 
                     <div className='flex justify-center items-center gap-6 mt-4'>
-                        <div className='rounded-full shadow-md shadow-stone-400 p-3 cursor-pointer hover:bg-stone-100 ease-in duration-300 w-12 h-12 flex items-center justify-center'>
+                        <div className='rounded-full shadow-md shadow-stone-400 p-3 cursor-pointer hover:opacity-80 transition-opacity duration-300 w-12 h-12 flex items-center justify-center'>
                         <FaLinkedinIn />
                         </div>
-                        <div className='rounded-full shadow-md shadow-stone-400 p-3 cursor-pointer hover:bg-stone-100 ease-in duration-300 w-12 h-12 flex items-center justify-center'>
+                        <div className='rounded-full shadow-md shadow-stone-400 p-3 cursor-pointer hover:opacity-80 transition-opacity duration-300 w-12 h-12 flex items-center justify-center'>
                         <FaGithub />
                         </div>
-                        <div className='rounded-full shadow-md shadow-stone-400 p-3 cursor-pointer hover:bg-stone-100 ease-in duration-300 w-12 h-12 flex items-center justify-center'>
+                        <div className='rounded-full shadow-md shadow-stone-400 p-3 cursor-pointer hover:opacity-80 transition-opacity duration-300 w-12 h-12 flex items-center justify-center'>
                         <AiOutlineMail />
                         </div>
-                        <div className='rounded-full shadow-md shadow-stone-400 p-3 cursor-pointer hover:bg-stone-100 ease-in duration-300 w-12 h-12 flex items-center justify-center'>
+                        <div className='rounded-full shadow-md shadow-stone-400 p-3 cursor-pointer hover:opacity-80 transition-opacity duration-300 w-12 h-12 flex items-center justify-center'>
                         <BsFillPersonLinesFill />
                         </div>
                     </div>

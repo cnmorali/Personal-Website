@@ -13,7 +13,7 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8 p-8'>
 
           {/* Project 1: IoTsolate */}
-          <div className='relative flex flex-col items-center justify-center h-auto w-full shadow-md shadow-stone-400 rounded-xl p-4 group hover:bg-stone-100 transition duration-300'>
+          <div className='relative flex flex-col items-center justify-center h-auto w-full shadow-md shadow-stone-400 rounded-xl p-4 group hover:opacity-80 transition-opacity duration-300'>
             <a 
               href='https://github.com/cnmorali/IoTsolate' 
               target='_blank' 
@@ -36,7 +36,7 @@ const Projects = () => {
           </div>
 
           {/* Project 2: CheckMates */}
-          <div className='relative flex flex-col items-center justify-center h-auto w-full shadow-md shadow-stone-400 rounded-xl p-4 group hover:bg-stone-100 transition duration-300'>
+          <div className='relative flex flex-col items-center justify-center h-auto w-full shadow-md shadow-stone-400 rounded-xl p-4 group hover:opacity-80 transition-opacity duration-300'>
             <a 
               href='https://github.com/lyydiakim/checkmate' 
               target='_blank' 
@@ -59,7 +59,7 @@ const Projects = () => {
           </div>
 
           {/* Project 3: My Personal Site */}
-          <div className='relative flex flex-col items-center justify-center h-auto w-full shadow-md shadow-stone-400 rounded-xl p-4 group hover:bg-stone-100 transition duration-300'>
+          <div className='relative flex flex-col items-center justify-center h-auto w-full shadow-md shadow-stone-400 rounded-xl p-4 group hover:opacity-80 transition-opacity duration-300'>
             <a 
               href='https://github.com/cnmorali/Personal-Website' 
               target='_blank' 
@@ -82,7 +82,7 @@ const Projects = () => {
           </div>
 
           {/* Project 4: Inrix Hack 2024 */}
-          <div className='relative flex flex-col items-center justify-center h-auto w-full shadow-md shadow-stone-400 rounded-xl p-4 group hover:bg-stone-100 transition duration-300'>
+          <div className='relative flex flex-col items-center justify-center h-auto w-full shadow-md shadow-stone-400 rounded-xl p-4 group hover:opacity-80 transition-opacity duration-300'>
             <a 
               href='https://github.com/cnmorali/INRIX-Hack-2023' 
               target='_blank' 

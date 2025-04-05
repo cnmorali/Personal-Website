@@ -10,22 +10,22 @@ const Skills = () => {
           {/* First Column: What I've Worked With */}
           <div className='space-y-4'>
             <h2 className='text-center text-xl font-semibold text-stone-800'>Technologies</h2>
-            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
+            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:opacity-80 transition-opacity duration-300'>
               <h3 className='text-center text-stone-700 font-normal'>React Native</h3>
             </div>
-            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
+            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:opacity-80 transition-opacity duration-300'>
               <h3 className='text-center text-stone-700 font-normal'>Next.js</h3>
             </div>
-            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
+            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:opacity-80 transition-opacity duration-300'>
               <h3 className='text-center text-stone-700 font-normal'>Tailwind CSS</h3>
             </div>
-            <div className='p-6 shadow-md shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
+            <div className='p-6 shadow-md shadow-stone-400 rounded-xl hover:opacity-80 transition-opacity duration-300'>
               <h3 className='text-center text-stone-700 font-normal'>Git</h3>
             </div>
-            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
+            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:opacity-80 transition-opacity duration-300'>
               <h3 className='text-center text-stone-700 font-normal'>Firebase Firestore</h3>
             </div>
-            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
+            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:opacity-80 transition-opacity duration-300'>
               <h3 className='text-center text-stone-700 font-normal'>Google Cloud Authentication</h3>
             </div>
           </div>
@@ -33,23 +33,23 @@ const Skills = () => {
           {/* Second Column: Languages I Code In */}
           <div className='space-y-4'>
             <h2 className='text-center text-xl font-semibold text-stone-800'>Programming Languages</h2>
-            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
+            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:opacity-80 transition-opacity duration-300'>
               <h3 className='text-center text-stone-700 font-normal'>C/ C++</h3>
               <p className='text-center text-sm text-stone-500'>Proficient</p>
             </div>
-            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl  hover:bg-stone-100 transition duration-300'>
+            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl  hover:opacity-80 transition-opacity duration-300'>
               <h3 className='text-center text-stone-700 font-normal'>JavaScript</h3>
               <p className='text-center text-sm text-stone-500'>Experienced</p>
             </div>
-            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
+            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:opacity-80 transition-opacity duration-300'>
               <h3 className='text-center text-stone-700 font-normal'>Assembly</h3>
               <p className='text-center text-sm text-stone-500'>Familiar</p>
             </div>
-            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
+            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:opacity-80 transition-opacity duration-300'>
               <h3 className='text-center text-stone-700 font-normal'>Python</h3>
               <p className='text-center text-sm text-stone-500'>Familiar</p>
             </div>
-            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
+            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:opacity-80 transition-opacity duration-300'>
               <h3 className='text-center text-stone-700 font-normal'>Java</h3>
               <p className='text-center text-sm text-stone-500'>Learning</p>
             </div>
@@ -58,19 +58,19 @@ const Skills = () => {
           {/* Third Column: Languages I Speak */}
           <div className='space-y-4'>
             <h2 className='text-center text-xl font-semibold text-stone-800'>Languages</h2>
-            <div className='p-6 shadow-md  shadow-stone-400 bg-stone-200 rounded-xl hover:bg-stone-100 transition duration-300'>
+            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:opacity-80 transition-opacity duration-300'>
               <h3 className='text-center text-stone-700 font-normal'>English</h3>
               <p className='text-center text-sm text-stone-500'>Fluent</p>
             </div>
-            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
+            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:opacity-80 transition-opacity duration-300'>
               <h3 className='text-center text-stone-700 font-normal'>French</h3>
               <p className='text-center text-sm text-stone-500'>Fluent</p>
             </div>
-            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
+            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:opacity-80 transition-opacity duration-300'>
               <h3 className='text-center text-stone-700 font-normal'>Mandarin</h3>
               <p className='text-center text-sm text-stone-500'>Intermediate</p>
             </div>
-            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:bg-stone-100 transition duration-300'>
+            <div className='p-6 shadow-md  shadow-stone-400 rounded-xl hover:opacity-80 transition-opacity duration-300'>
               <h3 className='text-center text-stone-700 font-normal'>Korean</h3>
               <p className='text-center text-sm text-stone-500'>Beginner</p>
             </div>
