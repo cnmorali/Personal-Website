@@ -16,7 +16,7 @@ const Main = () => {
                     </h1>
 
                     <p className="text-stone-700 max-w-[65%] m-auto">
-                    A passionate and creative engineer with a love for technology, culture, and beautiful design.{' '}
+                    A curious and creative engineering graduate with a love for technology, culture, and beautiful design.{' '}
                         <Link href="/#projects" scroll={true}>
                             <span className="underline cursor-pointer hover:opacity-80 transition-opacity duration-200">
                                 Check out some of the things I&apos;ve been working on.

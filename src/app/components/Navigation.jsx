@@ -40,7 +40,7 @@ const Navbar = () => {
             <div className='pt-7 px-5'>
                 <ul className='hidden md:flex text-stone-700'>
                     <Link href='/'>
-                        <li className='ml-10 text-sm uppercase hover:border-b text-[#9d174d]'>Welcome</li>
+                        <li className='ml-10 text-sm uppercase hover:border-b text-pink-700'>Welcome</li>
                     </Link>
                     <Link href='/#projects'>
                         <li className='ml-10 text-sm uppercase hover:border-b text-[#9d174d]'>Projects</li>
