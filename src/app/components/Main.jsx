@@ -15,7 +15,7 @@ const Main = () => {
                         Hi, I&apos;m <span className='text-[#db2777]'>Chloé</span>
                     </h1>
 
-                    <p className="text-stone-700 max-w-[65%] m-auto">
+                    <p className="text-stone-700 max-w-[70%] m-auto">
                     A curious and creative engineering graduate with a love for technology, culture, and beautiful design.{' '}
                         <Link href="/#projects" scroll={true}>
                             <span className="underline cursor-pointer hover:opacity-80 transition-opacity duration-200">
