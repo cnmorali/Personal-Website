@@ -47,12 +47,6 @@ const Main = () => {
                                 <SiGmail />
                             </div>
                         </a>
-
-                        <a href='/assets/Chloe-Morali-Resume.pdf' download>
-                            <div className='rounded-full shadow-md bg-gradient-to-r from-pink-500 to-pink-300 text-stone-800 shadow-stone-400 px-6 py-3 cursor-pointer hover:opacity-80 transition-opacity duration-300 font-semibold'>
-                                Resume
-                            </div>
-                        </a>
                     </div>
                 </div>
             </div>
